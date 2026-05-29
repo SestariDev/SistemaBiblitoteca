@@ -67,16 +67,9 @@ class SobreUI:
         tk.Label(info_frame, text="DESENVOLVEDORES", 
                 font=('Arial', 12, 'bold'), fg='#2196F3').pack(pady=(10, 10))
         
-        # NOTA: Altere aqui com suas informações
-        dev_info = """
-        Nome: [SEU NOME COMPLETO]
-        Matrícula: [SEU CÓDIGO DE MATRÍCULA]
+      
         
-        Nome: [NOME DO PARCEIRO (se em dupla)]
-        Matrícula: [MATRÍCULA DO PARCEIRO (se em dupla)]
-        """
-        
-        tk.Label(info_frame, text=dev_info, font=('Arial', 9), 
+        tk.Label(info_frame, font=('Arial', 9), 
                 justify='center').pack(pady=(0, 10))
         
         # Versão

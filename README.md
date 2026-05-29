@@ -144,21 +144,6 @@ ProjetoSistemaBiblioteca/
 - Dados armazenados no banco de dados
 - Visualização dos dados importados
 
-## 👥 Desenvolvedores
-
-**IMPORTANTE**: Edite o arquivo `ui/sobre.py` e atualize as informações dos desenvolvedores com seus dados reais:
-
-```python
-# Linha 52 do arquivo ui/sobre.py
-dev_info = """
-Nome: [SEU NOME COMPLETO]
-Matrícula: [SEU CÓDIGO DE MATRÍCULA]
-
-Nome: [NOME DO PARCEIRO (se em dupla)]
-Matrícula: [MATRÍCULA DO PARCEIRO (se em dupla)]
-"""
-```
-
 ## 📊 Tecnologias Utilizadas
 
 - **Python 3** - Linguagem principal
@@ -175,35 +160,3 @@ Matrícula: [MATRÍCULA DO PARCEIRO (se em dupla)]
 3. As exportações são salvas no local escolhido pelo usuário
 4. É necessária conexão com a internet apenas para importar dados da web
 5. O sistema destaca visualmente empréstimos atrasados
-
-## 🐛 Solução de Problemas
-
-### Erro ao importar dados
-- Verifique sua conexão com a internet
-- As APIs públicas podem estar temporariamente indisponíveis
-- Tente uma fonte de dados diferente
-
-### Erro de permissão ao exportar
-- Certifique-se de ter permissão de escrita na pasta escolhida
-- Tente salvar em uma pasta diferente (ex: Documentos)
-
-### Banco de dados não inicializa
-- Verifique se tem permissão de escrita na pasta do projeto
-- Exclua o arquivo `biblioteca.db` (se existir) e reinicie o sistema
-
-## 📅 Informações da Entrega
-
-- **Data de Entrega**: 22/05/2026
-- **Data de Apresentação**: 29/05/2026
-- **Valor**: 100% da nota da prova B2
-
-## 📄 Licença
-
-Este é um projeto acadêmico desenvolvido para fins educacionais.
-
----
-
-**Centro Paula Souza**  
-**Faculdade de Tecnologia de Ribeirão Preto**  
-**Análise e Desenvolvimento de Sistemas**  
-**Maio/2026**
